@@ -19,15 +19,6 @@ body {
     background-color: var(--color1);
 }
 
-.cabecera {
-    height: 18rem;
-    display: flex;
-    flex-direction: column;
-    background-image: url(../imgs/fondo-logo.svg);
-    background-position: center;
-    background-size: cover;
-}
-
 .imagen-logo {
     display: flex;
     align-items: center;
@@ -35,8 +26,13 @@ body {
     width: 100%;
 }
 
-.cabecera img {
-    width: 18%;
+.imagen-logo {
+    display: block;
+    align-items: center;
+}
+
+.imagen-logo img {
+    width: 20%;
 }
 
 @media only screen and (max-width: 850px) {
@@ -87,11 +83,6 @@ body {
 }
 
 footer {
-    padding: 2.5rem 3rem;
-    height: 240px;
+    height: 129px;
     background-color: var(--color2);
-}
-
-section{
-    background-color: red;
 }
