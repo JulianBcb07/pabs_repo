@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Frontend/src/main.css">
     <link rel="stylesheet" href="../../Frontend/src/bootstrap/css/bootstrap.min.css">
-    <title>El capitán</title>
+    <title>Software S&L</title>
 </head>
 
 <body>
