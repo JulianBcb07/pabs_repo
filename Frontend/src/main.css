@@ -14,9 +14,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-weight: 600;
+    font-weight: bold;
+}
+
 body {
-    padding: 0;
-    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Ajustes para tu contenido específico */
+.container {
+    /* Asegura que .container ocupe al menos el 100% de la altura del viewport */
+    min-height: 100%;
 }
 
 .imagen-logo {

@@ -1,0 +1,53 @@
+#transacciones {
+    width: 100%;
+    padding: 2rem 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#transacciones form {
+    width: 80%;
+    color: white;
+    padding: 1rem 4%;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(25, 34, 58);
+}
+
+#transacciones form input {
+    margin-bottom: 0.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+#transacciones form #button {
+    width: 50% !important;
+}
+
+#form-transaction-one button {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#first-transaction,
+#second-transaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+#buttons button {
+    width: 45%;
+    margin-right: 0.5rem;
+}
